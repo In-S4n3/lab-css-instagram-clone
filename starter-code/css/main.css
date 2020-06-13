@@ -9,55 +9,67 @@ body {
   margin: 0;
 }
 
-.nav-color {
-  height: 300px;
-  background: linear-gradient(to bottom, #1c5380 0%,#1c5380 100%,#1c5380 50%,white 50%,white 100%);
+p {
+  text-align: left;
 }
 
-.instalogo {
-  position: absolute;
-  padding: 0 10px 450px 375px;
-}
-
-.iphone {
-  padding-left: 100px;
+.header {
+  background-color:#1c5380;
+  height: 250px;
 }
 
 .container {
+  position: relative;
+  bottom: 150px;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 150px;
+  justify-content: space-evenly;
 }
 
 .container2 {
-  background-image: url("../images/frame.png");
-  background-origin: content-box;
+  
+}
+
+.text-inside-a-square {
+  width: 500px;
+  background-image: url("/starter-code/images/frame.png");
   background-repeat: no-repeat;
-  width: 35%;
-  font-size: 1em;
-  padding-top: 100px;
-  padding-right: 100px;
+  background-size: contain;
+  padding: 25px 40px;
 }
 
-.movetext {
-  padding-left: 15px;
+.stores {
+  display: flex;
+  justify-content: space-around;
 }
 
-.text {
-  text-align: left;
+h1 {
   color: #06365f;
-  width: 400px;
 }
 
-.apple {
-  float: left;
+.container3 {
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
 }
 
-.androind {
-  float: left;
+.homeLogo {
+  color: white;
+  background-color: #1c5380;
+  border-radius: 1px;
+  margin: auto;
+  padding: 5px 15px 5px 5px;
 }
 
-.clearbox {
-  clear: both;
+footer {
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 35%;
+  position: relative;
+  bottom: 85px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c5380;
 }
